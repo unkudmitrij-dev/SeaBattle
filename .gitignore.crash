@@ -1,0 +1,93 @@
+# ---------- Сборка (CMake / CLion) ----------
+cmake-build-*/
+build/
+out/
+bin/
+lib/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+_deps/
+install_manifest.txt
+compile_commands.json
+CMakeUserPresets.json
+
+# ---------- CLion / JetBrains ----------
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# ---------- macOS ----------
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.DocumentRevisions-V100
+.TemporaryItems
+
+# ---------- Объектные файлы и артефакты компиляции ----------
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+*.gch
+*.pch
+*.d
+*.slo
+*.lo
+*.la
+*.lai
+
+# ---------- Отладка и профилирование ----------
+*.dSYM/
+*.su
+*.idb
+*.pdb
+*.log
+*.trace
+*.profraw
+*.profdata
+*.gcda
+*.gcno
+*.gcov
+core
+core.*
+vgcore.*
+
+# ---------- Пакетные менеджеры ----------
+vcpkg_installed/
+conan.lock
+conanbuildinfo.*
+conaninfo.txt
+graph_info.json
+CMakeUserPresets.json
+
+# ---------- Кэши и временные файлы ----------
+.cache/
+.clangd/
+.ccls-cache/
+*.swp
+*.swo
+*~
+*.tmp
+
+# ---------- Другие редакторы (на случай, если откроете в них) ----------
+.vscode/
+*.code-workspace
+
+# ---------- Секреты ----------
+.env
+*.pem
+*.key
